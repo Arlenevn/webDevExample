@@ -1,0 +1,159 @@
+/* || General setup */
+
+/* Resetting margins and padding for all elements */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting the base font size and background colour for the entire page */
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+/* Setting body width, min-width, and centering it horizontally */
+body {
+  width: 100%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+/* Heading fonts and colors */
+h1, h2, h3 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #2a2a2a;
+}
+
+/* Paragraph, inut and list item font and colours */
+p, input, li {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2a2a2a;
+}
+
+/* Styling for the main page title (h1) */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+/* Styling for secondary headings (h2 and h3) */
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+/* Styling for paragraphs and list items */
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+/* Styling for the header section, including logo and navigation  */
+
+/* Header container */
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Background styling for header and other main sections */
+body > * {
+  background-color: red;
+  padding: 1%;
+}
+
+main, header, nav, article, aside, footer, section {
+  background-color: rgba(255, 0, 234, 0.5);
+  padding: 1%;
+}
+
+/* Styling for the main title (h1) within the header */
+h1 {
+  flex: 5;
+  text-transform: uppercase;
+}
+
+/* Styling for the site logo */
+header img {
+  display: block;
+  height: 60px;
+  padding-top: 20.15px;
+}
+
+/* Styling fo rnavigation menu */
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+/* Styling for navigation links and spans */
+nav a, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+
+}
+
+/* || main layout styles */
+
+/* Main content styling */
+main {
+  display: flex;
+}
+
+/* Main article and sidebar */
+article, section {
+  flex: 4;
+}
+
+/* Sidebar styling */
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+/* Styling for links inside sidebar */
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+/* Styling for images in sidebar */
+aside img {
+  max-width: 100%;
+}
+
+/* Styling for footer */
+footer {
+  margin-top: 10px;
+}
